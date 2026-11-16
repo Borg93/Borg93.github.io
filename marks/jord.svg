@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 248" width="240" height="248" role="img" aria-labelledby="t d">
+  <title id="t">Jord</title>
+  <desc id="d">Jord's mark: a heptagon, Kubernetes' shape, of ground in strata, moss turf, ochre clay, Falu red and bedrock, with a sprout, Innergård, growing on it; in the colours of Jord's diagrams (docs/diagrams/svgkit.py).</desc>
+  <defs><clipPath id="ground"><path d="M120.0,238.0 L44.9,201.9 L26.4,120.6 L78.3,55.5 L161.7,55.5 L213.6,120.6 L195.1,201.9 Z"/></clipPath></defs>
+  <g clip-path="url(#ground)">
+    <rect x="0" y="0" width="240" height="260" fill="#4a6630"/>
+    <path d="M-10,79.5 L0,80.2 L10,81.1 L20,81.7 L30,82.0 L40,81.9 L50,81.4 L60,80.7 L70,79.7 L80,78.8 L90,77.9 L100,77.3 L110,77.0 L120,77.1 L130,77.6 L140,78.3 L150,79.3 L160,80.2 L170,81.1 L180,81.7 L190,82.0 L200,81.9 L210,81.4 L220,80.7 L230,79.7 L240,78.8 L250,260 L-10,260 Z" fill="#d9a441"/>
+    <path d="M-10,119.5 L0,123.3 L10,122.5 L20,121.3 L30,119.8 L40,118.2 L50,116.9 L60,115.9 L70,115.5 L80,115.7 L90,116.5 L100,117.7 L110,119.3 L120,120.8 L130,122.2 L140,123.1 L150,123.5 L160,123.3 L170,122.5 L180,121.3 L190,119.8 L200,118.2 L210,116.9 L220,115.9 L230,115.5 L240,115.7 L250,260 L-10,260 Z" fill="#801818"/>
+    <path d="M-10,173.5 L0,171.5 L10,170.1 L20,169.2 L30,169.0 L40,169.5 L50,170.5 L60,172.1 L70,173.8 L80,175.5 L90,176.9 L100,177.8 L110,178.0 L120,177.5 L130,176.5 L140,175.0 L150,173.2 L160,171.5 L170,170.1 L180,169.2 L190,169.0 L200,169.5 L210,170.5 L220,172.1 L230,173.8 L240,175.5 L250,260 L-10,260 Z" fill="#2a211b"/>
+    <ellipse cx="96" cy="201.5" rx="7" ry="4.5" fill="#a89880"/>
+    <ellipse cx="141" cy="215.5" rx="5" ry="3.2" fill="#a89880"/>
+    <ellipse cx="121" cy="191.5" rx="3.2" ry="2.2" fill="#a89880"/>
+  </g>
+  <path d="M120.0,238.0 L44.9,201.9 L26.4,120.6 L78.3,55.5 L161.7,55.5 L213.6,120.6 L195.1,201.9 Z" fill="none" stroke="#2a211b" stroke-width="6" stroke-linejoin="round"/>
+  <g fill="none" stroke="#4a6630" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120,52.5 C120,41.5 119,31.5 121,22.5"/>
+  </g>
+  <g fill="#4a6630">
+    <path d="M119,35.5 C110,17.5 92,17.5 84,25.5 C94,37.5 110,41.5 119,35.5 Z"/>
+    <path d="M122,25.5 C128,5.5 148,-0.5 160,6.5 C152,21.5 134,29.5 122,25.5 Z"/>
+  </g>
+</svg>

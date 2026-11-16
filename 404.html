@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="color-scheme" content="light dark" />
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+		<script>
+			// Before anything is drawn: the theme and the accent the visitor chose
+			// (src/lib/theme.svelte.ts), and whether they switched the animations
+			// off (src/lib/motion.svelte.ts). data-theme is what the site's own
+			// styles read; the `dark` class is what Baby UI's components read.
+			try {
+				var root = document.documentElement;
+				var t = localStorage.getItem('theme');
+				if (t === 'light' || t === 'dark') root.dataset.theme = t;
+				var dark = t === 'dark' || (t !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
+				root.classList.toggle('dark', dark);
+				var a = localStorage.getItem('accent');
+				if (a) root.dataset.accent = a;
+				if (localStorage.getItem('motion') === 'off') root.dataset.motion = 'off';
+			} catch (e) {}
+		</script>
+		<link href="/_app/immutable/entry/start.RJPAwlur.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/payload.DSmR2FwN.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CCMZs0eX.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/wF0dRqj0.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DipOuNC9.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DWs41ZzH.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/app.5DyMiLgw.js" rel="modulepreload">
+		<link href="/_app/immutable/nodes/0.3MGZqFdB.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DK3Fl9T5.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DO4WAJbO.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BBUQ43tP.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DSKCULOW.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/h6nnWPCR.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DynM_iwy.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/C9pczUWY.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CGjKUvT-.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/COK5WRvK.js" rel="modulepreload">
+		
+		<link href="/_app/immutable/assets/0.DH89xl3h.css" rel="stylesheet">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1nm381m = {
+						base: "",
+						version: "1794850793958"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					import("/_app/immutable/entry/start.RJPAwlur.js").then(async (kit) => {
+						kit.init(__sveltekit_1nm381m);
+						const app = await import("/_app/immutable/entry/app.5DyMiLgw.js");
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
