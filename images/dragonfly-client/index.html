@@ -27,7 +27,7 @@
 		<link href="../../_app/immutable/chunks/Ci8zVPI9.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Cd_Bk_UT.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Cui6cWSN.js" rel="modulepreload">
-		<link href="../../_app/immutable/entry/app.C5LeW_KW.js" rel="modulepreload">
+		<link href="../../_app/immutable/entry/app.DAWTWhSD.js" rel="modulepreload">
 		<link href="../../_app/immutable/nodes/0.HUqaZs3s.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/DK3Fl9T5.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Ds5wehtV.js" rel="modulepreload">
@@ -67,17 +67,17 @@
 			
 			<script>
 				{
-					__sveltekit_1b66s0u = {
+					__sveltekit_5khc8k = {
 						base: new URL("../..", location).pathname.slice(0, -1),
-						version: "1794852469271"
+						version: "1794853357036"
 					};
 
 					const element = document.currentScript.parentElement;
 
 					import("../../_app/immutable/entry/start.B-2SmFoz.js").then(async (kit) => {
-						kit.init(__sveltekit_1b66s0u);
-						const app = await import("../../_app/immutable/entry/app.C5LeW_KW.js");
-						__sveltekit_1b66s0u.data = {p:{"19bozk/getImage/WyJkcmFnb25mbHktY2xpZW50Il0":{v:{image:{name:"dragonfly-client",user:"0:0",root:true,carried:1,refused:0,test:"works",testNote:null,trivy:[0,2],grype:[1,3],digest:"02a490ed9a1c",pin:"none yet",tag:"v1.5.9",source:"https://github.com/dragonflyoss/client",lang:"Go"},detail:{commit:"fd4dde4347be8a3334e688e5943851f0750746bf",entrypoint:["/usr/local/bin/dfdaemon"],base:null,rootWhy:"the chart runs dfdaemon on the node's network, its socket in /var/run/dragonfly, a hostPath the kubelet makes root's, where the node's container runtime and dfget reach it",shellWhy:null,upgrades:[],advisories:[],findings:[{id:"GHSA-5j98-2g5x-46v6",why:"hickory-resolver 0.25.2, which reqwest 0.12 asks for by the hickory-dns feature Cargo.toml turns on, is fixed only in 0.26.2, a release reqwest 0.12 cannot take; the finding is in DNSSEC validation, which this build's resolver has not: the binaries carry hickory's \\\"validate option is only available with dnssec features\\\", so no lookup of theirs validates"}],proved:["two nodes' clients ran from the image as root with the chart's config, answering its gRPC health probe on dfdaemon's socket","both found the scheduler through the manager and announced their hosts to it","on the second node the same file came from the first node's peer, whole, no piece of it from the origin","a registry blob pulled through the second node's proxy came from the first node's, which fetched it, no piece from the registry"],provedCount:4,testedBy:null},upstream:null,prev:"dra-driver",next:"dragonfly-dfinit",related:[{name:"dragonfly-dfinit",tag:"v1.5.9"},{name:"dragonfly-manager",tag:"v2.5.2"},{name:"dragonfly-scheduler",tag:"v2.5.2"}]}}}};
+						kit.init(__sveltekit_5khc8k);
+						const app = await import("../../_app/immutable/entry/app.DAWTWhSD.js");
+						__sveltekit_5khc8k.data = {p:{"19bozk/getImage/WyJkcmFnb25mbHktY2xpZW50Il0":{v:{image:{name:"dragonfly-client",user:"0:0",root:true,carried:1,refused:0,test:"works",testNote:null,trivy:[0,2],grype:[1,3],digest:"02a490ed9a1c",pin:"none yet",tag:"v1.5.9",source:"https://github.com/dragonflyoss/client",lang:"Go"},detail:{commit:"fd4dde4347be8a3334e688e5943851f0750746bf",entrypoint:["/usr/local/bin/dfdaemon"],base:null,rootWhy:"the chart runs dfdaemon on the node's network, its socket in /var/run/dragonfly, a hostPath the kubelet makes root's, where the node's container runtime and dfget reach it",shellWhy:null,upgrades:[],advisories:[],findings:[{id:"GHSA-5j98-2g5x-46v6",why:"hickory-resolver 0.25.2, which reqwest 0.12 asks for by the hickory-dns feature Cargo.toml turns on, is fixed only in 0.26.2, a release reqwest 0.12 cannot take; the finding is in DNSSEC validation, which this build's resolver has not: the binaries carry hickory's \\\"validate option is only available with dnssec features\\\", so no lookup of theirs validates"}],proved:["two nodes' clients ran from the image as root with the chart's config, answering its gRPC health probe on dfdaemon's socket","both found the scheduler through the manager and announced their hosts to it","on the second node the same file came from the first node's peer, whole, no piece of it from the origin","a registry blob pulled through the second node's proxy came from the first node's, which fetched it, no piece from the registry"],provedCount:4,testedBy:null},upstream:null,prev:"dra-driver",next:"dragonfly-dfinit",related:[{name:"dragonfly-dfinit",tag:"v1.5.9"},{name:"dragonfly-manager",tag:"v2.5.2"},{name:"dragonfly-scheduler",tag:"v2.5.2"}]}}}};
 
 						kit.start(app, element, {
 							node_ids: [0, 6],

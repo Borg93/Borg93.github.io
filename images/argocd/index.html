@@ -27,7 +27,7 @@
 		<link href="../../_app/immutable/chunks/Ci8zVPI9.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Cd_Bk_UT.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Cui6cWSN.js" rel="modulepreload">
-		<link href="../../_app/immutable/entry/app.C5LeW_KW.js" rel="modulepreload">
+		<link href="../../_app/immutable/entry/app.DAWTWhSD.js" rel="modulepreload">
 		<link href="../../_app/immutable/nodes/0.HUqaZs3s.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/DK3Fl9T5.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Ds5wehtV.js" rel="modulepreload">
@@ -71,17 +71,17 @@
 			
 			<script>
 				{
-					__sveltekit_1b66s0u = {
+					__sveltekit_5khc8k = {
 						base: new URL("../..", location).pathname.slice(0, -1),
-						version: "1794852469271"
+						version: "1794853357036"
 					};
 
 					const element = document.currentScript.parentElement;
 
 					import("../../_app/immutable/entry/start.B-2SmFoz.js").then(async (kit) => {
-						kit.init(__sveltekit_1b66s0u);
-						const app = await import("../../_app/immutable/entry/app.C5LeW_KW.js");
-						__sveltekit_1b66s0u.data = {p:{"19bozk/getImage/WyJhcmdvY2QiXQ":{v:{image:{name:"argocd",user:"999:999",root:false,carried:1,refused:0,test:"works",testNote:null,trivy:[0,0],grype:[1,8],digest:"dd024c32ed9f",pin:"none yet",tag:"v3.5.6",source:"https://github.com/argoproj/argo-cd",lang:"Go"},detail:{commit:"c2b1e3017e2cec86b122172e861dcd026453ae44",entrypoint:["/usr/bin/tini","--"],base:null,rootWhy:null,shellWhy:"the install's init containers run sh and cp, and its gpg and git wrappers are sh scripts, BusyBox's",upgrades:["github.com/klauspost/compress@v1.18.7","golang.org/x/net@v0.60.0"],advisories:[],findings:[],proved:["the copyutil init containers ran with the image's sh, cp and ln, and the copied argocd ran from its volume","the redis init container made the cache's password in the argocd-redis Secret by its service account, and Redis took it","the repo server started as 999 under tini, made its GnuPG keyring with the image's gpg, and answered its probe","the API server started as 999, answered /api/version as v3.5.6, a clean build of the tag, and made the default project","the application controller started as 999 from /home/argocd, as the StatefulSet runs it, and answered its probe","the CLI logged in with the initial admin password the API server made and read the Application; git runs git-lfs 3.7.1 by its system filters"],provedCount:6,testedBy:null},upstream:null,prev:"argo-workflows-crdinstaller",next:"argocli",related:[{name:"argo-events",tag:"v1.9.11"},{name:"argo-rollouts",tag:"v1.10.1"},{name:"argo-workflows-crdinstaller",tag:"v4.1.6"},{name:"argocli",tag:"v4.1.6"},{name:"argoexec",tag:"v4.1.6"},{name:"kubectl-argo-rollouts",tag:"v1.10.1"},{name:"workflow-controller",tag:"v4.1.6"}]}}}};
+						kit.init(__sveltekit_5khc8k);
+						const app = await import("../../_app/immutable/entry/app.DAWTWhSD.js");
+						__sveltekit_5khc8k.data = {p:{"19bozk/getImage/WyJhcmdvY2QiXQ":{v:{image:{name:"argocd",user:"999:999",root:false,carried:1,refused:0,test:"works",testNote:null,trivy:[0,0],grype:[1,8],digest:"dd024c32ed9f",pin:"none yet",tag:"v3.5.6",source:"https://github.com/argoproj/argo-cd",lang:"Go"},detail:{commit:"c2b1e3017e2cec86b122172e861dcd026453ae44",entrypoint:["/usr/bin/tini","--"],base:null,rootWhy:null,shellWhy:"the install's init containers run sh and cp, and its gpg and git wrappers are sh scripts, BusyBox's",upgrades:["github.com/klauspost/compress@v1.18.7","golang.org/x/net@v0.60.0"],advisories:[],findings:[],proved:["the copyutil init containers ran with the image's sh, cp and ln, and the copied argocd ran from its volume","the redis init container made the cache's password in the argocd-redis Secret by its service account, and Redis took it","the repo server started as 999 under tini, made its GnuPG keyring with the image's gpg, and answered its probe","the API server started as 999, answered /api/version as v3.5.6, a clean build of the tag, and made the default project","the application controller started as 999 from /home/argocd, as the StatefulSet runs it, and answered its probe","the CLI logged in with the initial admin password the API server made and read the Application; git runs git-lfs 3.7.1 by its system filters"],provedCount:6,testedBy:null},upstream:null,prev:"argo-workflows-crdinstaller",next:"argocli",related:[{name:"argo-events",tag:"v1.9.11"},{name:"argo-rollouts",tag:"v1.10.1"},{name:"argo-workflows-crdinstaller",tag:"v4.1.6"},{name:"argocli",tag:"v4.1.6"},{name:"argoexec",tag:"v4.1.6"},{name:"kubectl-argo-rollouts",tag:"v1.10.1"},{name:"workflow-controller",tag:"v4.1.6"}]}}}};
 
 						kit.start(app, element, {
 							node_ids: [0, 6],

@@ -27,7 +27,7 @@
 		<link href="../../_app/immutable/chunks/Ci8zVPI9.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Cd_Bk_UT.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Cui6cWSN.js" rel="modulepreload">
-		<link href="../../_app/immutable/entry/app.C5LeW_KW.js" rel="modulepreload">
+		<link href="../../_app/immutable/entry/app.DAWTWhSD.js" rel="modulepreload">
 		<link href="../../_app/immutable/nodes/0.HUqaZs3s.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/DK3Fl9T5.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Ds5wehtV.js" rel="modulepreload">
@@ -67,17 +67,17 @@
 			
 			<script>
 				{
-					__sveltekit_1b66s0u = {
+					__sveltekit_5khc8k = {
 						base: new URL("../..", location).pathname.slice(0, -1),
-						version: "1794852469271"
+						version: "1794853357036"
 					};
 
 					const element = document.currentScript.parentElement;
 
 					import("../../_app/immutable/entry/start.B-2SmFoz.js").then(async (kit) => {
-						kit.init(__sveltekit_1b66s0u);
-						const app = await import("../../_app/immutable/entry/app.C5LeW_KW.js");
-						__sveltekit_1b66s0u.data = {p:{"19bozk/getImage/WyJ0ZXRyYWdvbiJd":{v:{image:{name:"tetragon",user:"0",root:true,carried:1,refused:0,test:"works",testNote:null,trivy:[0,0],grype:null,digest:"86f567f191d9",pin:"changed",tag:"v1.7.1",source:"https://github.com/cilium/tetragon",lang:"Go"},detail:{commit:"99ca93d98710b98a42551bf3c12613e32888885d",entrypoint:["/usr/bin/tetragon"],base:null,rootWhy:"it loads BPF programs into the kernel, which the chart lets it do as a privileged container",shellWhy:null,upgrades:["google.golang.org/grpc@v1.83.2","golang.org/x/net@v0.60.0","github.com/cilium/ebpf@v0.21.1-0.20260527142033-533dfc82fd22"],advisories:[],findings:[],proved:["this kernel has no kprobes: the agent read its BTF and loaded its base sensor's programs from the image as root, up to attaching the first kprobe, acct_process, where it stopped","an event's export, with kprobes, is Jord's cluster run's (its G119)","the agent loaded its base sensor from the image's BPF programs and listened for events","it exported the exec of another container's shell, its arguments in a process_exec event"],provedCount:4,testedBy:null},upstream:null,prev:"sqlite",next:"tetragon-operator",related:[{name:"cilium",tag:"v1.20.2"},{name:"cilium-operator",tag:"v1.20.2"},{name:"cilium-runtime",tag:"v1.20.2"},{name:"tetragon-operator",tag:"v1.7.1"}]}}}};
+						kit.init(__sveltekit_5khc8k);
+						const app = await import("../../_app/immutable/entry/app.DAWTWhSD.js");
+						__sveltekit_5khc8k.data = {p:{"19bozk/getImage/WyJ0ZXRyYWdvbiJd":{v:{image:{name:"tetragon",user:"0",root:true,carried:1,refused:0,test:"works",testNote:null,trivy:[0,0],grype:null,digest:"86f567f191d9",pin:"changed",tag:"v1.7.1",source:"https://github.com/cilium/tetragon",lang:"Go"},detail:{commit:"99ca93d98710b98a42551bf3c12613e32888885d",entrypoint:["/usr/bin/tetragon"],base:null,rootWhy:"it loads BPF programs into the kernel, which the chart lets it do as a privileged container",shellWhy:null,upgrades:["google.golang.org/grpc@v1.83.2","golang.org/x/net@v0.60.0","github.com/cilium/ebpf@v0.21.1-0.20260527142033-533dfc82fd22"],advisories:[],findings:[],proved:["this kernel has no kprobes: the agent read its BTF and loaded its base sensor's programs from the image as root, up to attaching the first kprobe, acct_process, where it stopped","an event's export, with kprobes, is Jord's cluster run's (its G119)","the agent loaded its base sensor from the image's BPF programs and listened for events","it exported the exec of another container's shell, its arguments in a process_exec event"],provedCount:4,testedBy:null},upstream:null,prev:"sqlite",next:"tetragon-operator",related:[{name:"cilium",tag:"v1.20.2"},{name:"cilium-operator",tag:"v1.20.2"},{name:"cilium-runtime",tag:"v1.20.2"},{name:"tetragon-operator",tag:"v1.7.1"}]}}}};
 
 						kit.start(app, element, {
 							node_ids: [0, 6],

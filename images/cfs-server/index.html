@@ -27,7 +27,7 @@
 		<link href="../../_app/immutable/chunks/Ci8zVPI9.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Cd_Bk_UT.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Cui6cWSN.js" rel="modulepreload">
-		<link href="../../_app/immutable/entry/app.C5LeW_KW.js" rel="modulepreload">
+		<link href="../../_app/immutable/entry/app.DAWTWhSD.js" rel="modulepreload">
 		<link href="../../_app/immutable/nodes/0.HUqaZs3s.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/DK3Fl9T5.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Ds5wehtV.js" rel="modulepreload">
@@ -59,17 +59,17 @@
 			
 			<script>
 				{
-					__sveltekit_1b66s0u = {
+					__sveltekit_5khc8k = {
 						base: new URL("../..", location).pathname.slice(0, -1),
-						version: "1794852469271"
+						version: "1794853357036"
 					};
 
 					const element = document.currentScript.parentElement;
 
 					import("../../_app/immutable/entry/start.B-2SmFoz.js").then(async (kit) => {
-						kit.init(__sveltekit_1b66s0u);
-						const app = await import("../../_app/immutable/entry/app.C5LeW_KW.js");
-						__sveltekit_1b66s0u.data = {p:{"19bozk/getImage/WyJjZnMtc2VydmVyIl0":{v:{image:{name:"cfs-server",user:"0:0",root:true,carried:2,refused:0,test:"partial",testNote:"blocked here (N39)",trivy:[0,0],grype:[1,8],digest:"3b64d9bec07f",pin:"none yet",tag:"v3.6.0",source:"https://github.com/cubeFS/cubefs",lang:"Go"},detail:{commit:"f6a14a59e59960345fc7da9061ec546d39f8ee81",entrypoint:["/cfs/bin/cfs-server"],base:null,rootWhy:"the chart runs cfs-server privileged, on the host's network, writing its data and logs to hostPaths of the node's, root's, and the datanode its disks",shellWhy:"the chart runs each role by bash scripts of its ConfigMap's, which write the config with jq, wait for the master with curl, and call awk, cat, mkdir, mv and sleep, BusyBox's",upgrades:["golang.org/x/crypto@v0.57.0","golang.org/x/net@v0.60.0","golang.org/x/text@v0.42.0","google.golang.org/grpc@v1.83.2","github.com/klauspost/compress@v1.18.7","github.com/graphql-go/graphql@v0.8.1"],advisories:[],findings:[],proved:["the master's Pod ran the chart's config and start scripts, bash and jq in the image, and the master answered its getCluster","three metanodes and a datanode, their init containers waiting for the master by curl, registered with it, active","the master made the volume site, its meta partition on the three metanodes and its data partition on the datanode, and its owner's keys","by the owner's keys, the objectnode's S3 API put 64 KiB into the volume and got the same bytes back"],provedCount:4,testedBy:null},upstream:null,prev:"cert-manager-webhook",next:"cilium",related:[{name:"local-path-helper",tag:null},{name:"local-path-provisioner",tag:"v0.0.37"},{name:"seaweedfs",tag:"4.48"},{name:"sqlite",tag:"3.53.4"},{name:"zot",tag:"v2.1.21"}]}}}};
+						kit.init(__sveltekit_5khc8k);
+						const app = await import("../../_app/immutable/entry/app.DAWTWhSD.js");
+						__sveltekit_5khc8k.data = {p:{"19bozk/getImage/WyJjZnMtc2VydmVyIl0":{v:{image:{name:"cfs-server",user:"0:0",root:true,carried:2,refused:0,test:"partial",testNote:"blocked here (N39)",trivy:[0,0],grype:[1,8],digest:"3b64d9bec07f",pin:"none yet",tag:"v3.6.0",source:"https://github.com/cubeFS/cubefs",lang:"Go"},detail:{commit:"f6a14a59e59960345fc7da9061ec546d39f8ee81",entrypoint:["/cfs/bin/cfs-server"],base:null,rootWhy:"the chart runs cfs-server privileged, on the host's network, writing its data and logs to hostPaths of the node's, root's, and the datanode its disks",shellWhy:"the chart runs each role by bash scripts of its ConfigMap's, which write the config with jq, wait for the master with curl, and call awk, cat, mkdir, mv and sleep, BusyBox's",upgrades:["golang.org/x/crypto@v0.57.0","golang.org/x/net@v0.60.0","golang.org/x/text@v0.42.0","google.golang.org/grpc@v1.83.2","github.com/klauspost/compress@v1.18.7","github.com/graphql-go/graphql@v0.8.1"],advisories:[],findings:[],proved:["the master's Pod ran the chart's config and start scripts, bash and jq in the image, and the master answered its getCluster","three metanodes and a datanode, their init containers waiting for the master by curl, registered with it, active","the master made the volume site, its meta partition on the three metanodes and its data partition on the datanode, and its owner's keys","by the owner's keys, the objectnode's S3 API put 64 KiB into the volume and got the same bytes back"],provedCount:4,testedBy:null},upstream:null,prev:"cert-manager-webhook",next:"cilium",related:[{name:"local-path-helper",tag:null},{name:"local-path-provisioner",tag:"v0.0.37"},{name:"seaweedfs",tag:"4.48"},{name:"sqlite",tag:"3.53.4"},{name:"zot",tag:"v2.1.21"}]}}}};
 
 						kit.start(app, element, {
 							node_ids: [0, 6],

@@ -27,7 +27,7 @@
 		<link href="../../_app/immutable/chunks/Ci8zVPI9.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Cd_Bk_UT.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Cui6cWSN.js" rel="modulepreload">
-		<link href="../../_app/immutable/entry/app.C5LeW_KW.js" rel="modulepreload">
+		<link href="../../_app/immutable/entry/app.DAWTWhSD.js" rel="modulepreload">
 		<link href="../../_app/immutable/nodes/0.HUqaZs3s.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/DK3Fl9T5.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/Ds5wehtV.js" rel="modulepreload">
@@ -71,17 +71,17 @@
 			
 			<script>
 				{
-					__sveltekit_1b66s0u = {
+					__sveltekit_5khc8k = {
 						base: new URL("../..", location).pathname.slice(0, -1),
-						version: "1794852469271"
+						version: "1794853357036"
 					};
 
 					const element = document.currentScript.parentElement;
 
 					import("../../_app/immutable/entry/start.B-2SmFoz.js").then(async (kit) => {
-						kit.init(__sveltekit_1b66s0u);
-						const app = await import("../../_app/immutable/entry/app.C5LeW_KW.js");
-						__sveltekit_1b66s0u.data = {p:{"19bozk/getImage/WyJoYXJib3ItZGIiXQ":{v:{image:{name:"harbor-db",user:"999:999",root:false,carried:1,refused:0,test:"works",testNote:null,trivy:[0,0],grype:[1,5],digest:"38cc1804e0f5",pin:"none yet",tag:"v2.15.4",source:"https://github.com/goharbor/harbor",lang:null},detail:{commit:"0a6bf30d54e779962ad5b862fc67e3e9f6b010d8",entrypoint:["/docker-entrypoint.sh","15","18"],base:null,rootWhy:null,shellWhy:"its entrypoint, initdb.sh, upgrade.sh and the healthcheck the chart's probe runs are upstream's bash scripts, and the chart's init container runs sh -c chmod",upgrades:[],advisories:[],findings:[],proved:["it ran from the image as the chart's StatefulSet runs it, as 999, initialised PostgreSQL 18 in the volume with the registry database, took core's login by the password and refused a wrong one, and passed the chart's probe","a volume of PostgreSQL 15's, made as Harbor 2.12 made it, was upgraded to 18 by pg_upgrade from the image's 15 binaries, its project and its login by password kept and the old cluster removed"],provedCount:2,testedBy:null},upstream:null,prev:"gpu-operator",next:"harbor-registry",related:[{name:"harbor-registry",tag:"v2.15.4"},{name:"harbor-registryctl",tag:"v2.15.4"},{name:"harbor-valkey",tag:"v2.15.4"}]}}}};
+						kit.init(__sveltekit_5khc8k);
+						const app = await import("../../_app/immutable/entry/app.DAWTWhSD.js");
+						__sveltekit_5khc8k.data = {p:{"19bozk/getImage/WyJoYXJib3ItZGIiXQ":{v:{image:{name:"harbor-db",user:"999:999",root:false,carried:1,refused:0,test:"works",testNote:null,trivy:[0,0],grype:[1,5],digest:"38cc1804e0f5",pin:"none yet",tag:"v2.15.4",source:"https://github.com/goharbor/harbor",lang:null},detail:{commit:"0a6bf30d54e779962ad5b862fc67e3e9f6b010d8",entrypoint:["/docker-entrypoint.sh","15","18"],base:null,rootWhy:null,shellWhy:"its entrypoint, initdb.sh, upgrade.sh and the healthcheck the chart's probe runs are upstream's bash scripts, and the chart's init container runs sh -c chmod",upgrades:[],advisories:[],findings:[],proved:["it ran from the image as the chart's StatefulSet runs it, as 999, initialised PostgreSQL 18 in the volume with the registry database, took core's login by the password and refused a wrong one, and passed the chart's probe","a volume of PostgreSQL 15's, made as Harbor 2.12 made it, was upgraded to 18 by pg_upgrade from the image's 15 binaries, its project and its login by password kept and the old cluster removed"],provedCount:2,testedBy:null},upstream:null,prev:"gpu-operator",next:"harbor-registry",related:[{name:"harbor-registry",tag:"v2.15.4"},{name:"harbor-registryctl",tag:"v2.15.4"},{name:"harbor-valkey",tag:"v2.15.4"}]}}}};
 
 						kit.start(app, element, {
 							node_ids: [0, 6],
